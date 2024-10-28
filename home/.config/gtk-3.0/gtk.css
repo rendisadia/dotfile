@@ -36,7 +36,7 @@
 	box-shadow: none;
 }
 
-#launcher-17 button {
+#launcher-12 button {
 	background-color: #9ece6a;
 	border-radius: 999px;
 	margin: 10px;
@@ -76,11 +76,11 @@ window#whiskermenu-window scrolledwindow {
 	border: none;
 }
 
-#pager-13 grid {
+#pager-4 grid {
 	margin: 10px;
 	border-radius: 15px;
 }
-#pager-13 button {
+#pager-4 button {
 	padding: 0px;
 	margin: 7px 3px;
 	background-color: transparent;
@@ -88,10 +88,10 @@ window#whiskermenu-window scrolledwindow {
 	border-radius: 69px;
 	box-shadow: inset 0px 0px 2px #7aa2f7;
 }
-#pager-13 button:hover {
+#pager-4 button:hover {
 	background-color: #7aa2f7;
 }
-#pager-13 button:checked {
+#pager-4 button:checked {
 	box-shadow: none;
 	background-color: #9ece6a;
 }
