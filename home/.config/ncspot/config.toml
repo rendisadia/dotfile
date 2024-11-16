@@ -1,0 +1,56 @@
+# Basic options
+default_keybindings = true
+use_nerdfont = false  # Set to true if you want special font support
+notify = true
+gapless = true
+shuffle = false
+repeat = 'off'
+
+[keybindings]
+# Basic playback controls
+"p" = "playpause"        # Play/Pause
+"Enter" = "play"         # Play selected track
+"s" = "stop"             # Stop playback
+
+# Track navigation
+"Shift+h" = "previous"   # Previous track
+"n" = "next"             # Next track (added)
+
+# Volume controls
+"=" = "volup 1"          # Increase volume by 1%
+"-" = "voldown 1"        # Decrease volume by 1%
+"+" = "volup 5"          # Increase volume by 5%
+"_" = "voldown 5"        # Decrease volume by 5%
+
+# Search
+"f" = "search"           # Search for a song (added)
+"Alt+s" = "search playlist" # Search for a playlist (added)
+
+# Queue controls
+"Space" = "queue"        # Add track to queue
+"Shift+c" = "clear"      # Clear queue
+
+# Navigation
+"Down" = "move down 1"   # Move down
+"Up" = "move up 1"       # Move up
+"q" = "back"             # Go back
+
+# Quit and Help
+"Shift+q" = "quit"       # Quit ncspot
+"?" = "help"             # Show help
+
+# Theme settings (Gruvbox dark)
+[theme]
+background = "default"
+primary = "#a89984"             # Normal text color
+secondary = "#928374"           # Secondary text color
+title = "#8ec07c"               # Title color
+playing = "#ebdbb2"             # Playing track color (changed to a brighter color)
+playing_bg = "#383838"          # Background for the playing track
+playing_selected = "#689d6a"    # Color for selected playing track
+highlight = "#d5c4a1"           # Highlight color
+statusbar_bg = "#282828"        # Status bar background
+cmdline_bg = "#383838"          # Command line background
+search_match = "#fabd2f"        # Search match color
+
+# You can also customize the playing font color more specifically if needed.
